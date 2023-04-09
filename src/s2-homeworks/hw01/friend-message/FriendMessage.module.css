@@ -12,7 +12,8 @@
 }
 
 .friendText {
-
+    width: 50px;
+    height: 30px;
 }
 
 .friendText:after {
@@ -20,7 +21,8 @@
 }
 
 .friendName {
-
+    width: 50px;
+    height: 30px;
 }
 
 .friendMessageText {
@@ -28,5 +30,6 @@
 }
 
 .friendTime {
-
+    width: 50px;
+    height: 30px;
 }
