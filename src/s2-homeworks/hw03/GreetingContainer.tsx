@@ -48,7 +48,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
             setName(trimmedName)
             error && setError('')
         }else {
-            name && setName(name)
+            trimmedName && setName(trimmedName)
             setError('name is required')
         }
         // need to fix
